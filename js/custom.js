@@ -424,6 +424,9 @@ $(function() {
 
 		var $navArrows = $( '#nav-arrows' ),
 			$nav = $( '#nav-dots > span' ),
+            $autoSlide =  setInterval(function () {
+                slitslider.next();
+            }, 4000),
 			slitslider = $( '#slitSlider' ).slitslider( {
 			
 			    speed : 1600,
@@ -491,4 +494,37 @@ function parallaxInit() {
 $(window).bind("load", function () {
     parallaxInit()
 });
+
+/* ========================================================================= */
+/*	Gallery Day Changer
+/* ========================================================================= */
+
+ $(function phrase() {
+    var d = new Date();
+    var phrase = new Array(7);
+    phrase[0] = "Lazy" + " ";
+    phrase[1] = "Love" + " ";
+    phrase[2] = "Meh." + " ";
+    phrase[3] = "Happy" + " ";
+    phrase[4] = "Almost" + " ";
+    phrase[5] = "T.G.I." + " ";
+    phrase[6] = "Sweet" + " ";
+
+    var n = phrase[d.getDay()];
+    document.getElementById("phraseID").innerHTML = n;
+
+    var da = new Date();
+    var weekday = new Array(7);
+    weekday[0] = "Sunday";
+    weekday[1] = "Mondays";
+    weekday[2] = "Tuesday";
+    weekday[3] = "Humpday!";
+    weekday[4] = "Friday";
+    weekday[5] = "Friday";
+    weekday[6] = "Saturday";
+
+    var nu = weekday[da.getDay()];
+    document.getElementById("weekdayID").innerHTML = nu;
+});
+
                             
