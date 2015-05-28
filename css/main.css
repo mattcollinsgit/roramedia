@@ -17,7 +17,7 @@
 /*=================================================================
 	Basic Setup
 ==================================================================*/
-* {
+*{
     margin: 0;
     padding: 0;
 }
@@ -30,9 +30,11 @@ body {
     }
 
 p {
-    letter-spacing: 1px;
+    letter-spacing: 1.2px;
     font-size: 16px;
     font-family: 'Roboto', sans-serif;
+    text-align: justify;
+    
 }
 
 ol, ul {
@@ -70,7 +72,6 @@ a:focus, a:hover {
 h1, h2, h3, h4, h5, h6 {
     font-family: oswald;
     font-weight: 400;
-    color: #000000;
 }
 
 .kill-margin-bottom {
@@ -1650,19 +1651,19 @@ blockquote {
     width: 100vw;
     height: 15.5vh;
     background: #000;
-    text-align: center;
-    margin: 20px 0px;
-    
+    text-align: center;   
 } 
 
 
 #phraseID, #weekdayID {
     padding: 0px 0px;
     font-size: 80px;
-    position: sticky;
     color: #fafafa;
 } 
-#pharseID {}
+#pharseID {
+
+}
+
 #weekdayID {
     font-family: 'Playfair Display', serif;
     font-weight: 500;
