@@ -26,14 +26,13 @@ body {
     background-color: #EEE;
     font-family: 'Roboto', sans-serif;    
     color: #000;
-    font-weight: 300;
     }
 
 p {
-    letter-spacing: 1.2px;
+    letter-spacing: 1px;
     font-size: 16px;
     font-family: 'Roboto', sans-serif;
-    text-align: justify;
+    font-weight: 200;
     
 }
 
@@ -412,7 +411,7 @@ h1, h2, h3, h4, h5, h6 {
 	Our Benefits
 ==================================================================*/
 
-#main-features {
+#about {
     padding: 70px 0;
 }
 
@@ -842,8 +841,8 @@ h1, h2, h3, h4, h5, h6 {
 	Pricing section
 ==================================================================*/
 
-#pricing {
-    padding: 70px 0;
+#weekdaytag {
+    background-color:#000;
 }
 
 .pricing {
@@ -949,7 +948,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .social-profile a {
-    color: #074B75;
+    color: #0c85cf;
 	display: block;
 }
 
@@ -958,7 +957,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .social-profile li a:hover {
-	color: #ff9400;
+	color: #fff;
 }
 
 .owl-pagination,
@@ -984,7 +983,7 @@ h1, h2, h3, h4, h5, h6 {
 
 .owl-controls .owl-page.active span,
 .owl-controls .owl-page:hover span {
-    background-color: #074B75;
+    background-color: #0c85cf;
     border: 2px solid transparent;
 }
 
@@ -1656,8 +1655,6 @@ blockquote {
 
 #phrase_weekday {
     width: 100vw;
-    height: 15.5vh;
-    background: #000;
     text-align: center;   
 } 
 
