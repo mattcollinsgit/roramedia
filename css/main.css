@@ -18,13 +18,15 @@
 
 body {
     background-color: #EEE;
-	  font-family: 'Open Sans','Ubuntu', 'Arial', sans-serif;
+    font-family: 'Open Sans','Ubuntu', 'Arial', sans-serif;
     color: #000;
-    font-weight: 100;
+    font-weight: 200;
     }
 
 p {
-    letter-spacing: .5px;
+    letter-spacing: 1px;
+    font-size: 22px;
+    
 }
 
 ol, ul {
@@ -305,7 +307,7 @@ h1, h2, h3, h4, h5, h6 {
 
 .navbar-inverse .navbar-nav > li > a {
     color: #FFF;
-    font-size: 14px;
+    font-size: 20px;
     line-height: 26px;
     padding: 20px 15px;
 
