@@ -23,9 +23,9 @@
 }
 
 body {
-    background-color: #EEE;
+    background-color: #fafafa;
     font-family: 'Roboto', sans-serif;    
-    color: #000;
+    color: #07080d;
     }
 
 p {
@@ -586,7 +586,7 @@ h1, h2, h3, h4, h5, h6 {
     width: 100%;
     height: 100%;
     position: absolute;
-    background-color: rgba(43, 44, 48, 0.8);
+    background-color: rgba(12, 133, 207, .9);
 
 	opacity: 0;
 	filter: alpha(opacity=0);
@@ -727,6 +727,7 @@ h1, h2, h3, h4, h5, h6 {
 .member-title {
 	border-bottom: 1px solid #4e595f;
 	padding: 10px 15px;
+    text-align: center;
 }
 
 
@@ -838,11 +839,12 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 /*=================================================================
-	Pricing section
+	weekdaytag section
 ==================================================================*/
 
 #weekdaytag {
-    background-color:#000;
+    
+   
 }
 
 .pricing {
@@ -1230,7 +1232,7 @@ h1.footer {
 }
 
 #scrollUp {
-    border: 1px solid #074B75;
+    border: 4px solid #fff;
     bottom: 15px;
     color: #fff;
     background-color: #0c85cf;
@@ -1654,7 +1656,10 @@ blockquote {
 ----------*/
 
 #phrase_weekday {
-    text-align: center;   
+    background-color:#000;
+    width: 100vw;
+    text-align: center;
+    padding:10px 0px 20px 0px;
 } 
 
 
