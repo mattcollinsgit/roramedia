@@ -286,7 +286,7 @@ jQuery(function ($) { "use strict";
 
 	function initialize() {
 
-		var myLatLng = new google.maps.LatLng(55.859331, -4.260800);
+		var myLatLng = new google.maps.LatLng(55.859390, -4.260618);
 
 		var roadAtlasStyles = [{
 			"featureType": "landscape",

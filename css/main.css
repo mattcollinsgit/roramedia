@@ -800,7 +800,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .mask ul li a:hover {
-    background-color: #074B75;
+    background-color: #0c85cf;
     border: 1px solid transparent;
 }
 
@@ -834,7 +834,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .tweet a {
-    color: #074B75;
+    color: #0c85cf;
 }
 
 /*=================================================================
@@ -1060,6 +1060,10 @@ h1, h2, h3, h4, h5, h6 {
 
 #contact-us {
     padding: 70px 0 0;
+}
+
+.contact-details {
+    font-size: 20px;
 }
 
 .contact-form {
