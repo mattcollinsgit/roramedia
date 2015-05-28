@@ -470,7 +470,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #services .title {
-    padding-bottom: 125px;
+    padding-bottom: 60px;
 }
 
 .service-block {
@@ -1654,7 +1654,6 @@ blockquote {
 ----------*/
 
 #phrase_weekday {
-    width: 100vw;
     text-align: center;   
 } 
 
