@@ -150,7 +150,7 @@ jQuery(function ($) { "use strict";
 	$(".chart").appear(function () {
 		$(".chart").easyPieChart({
 			easing: "easeOutBounce",
-			barColor: "#ff9400",
+			barColor: "#0c85cf",
 			size: "150",
 			lineWidth: 15,
 			animate: 2e3,
@@ -292,7 +292,7 @@ jQuery(function ($) { "use strict";
 			"featureType": "landscape",
 			"elementType": "geometry.fill",
 			"stylers": [{
-				"color": "#074B75"
+				"color": "#fafafa"
 			}]
 		}, {
 			"elementType": "labels.text.fill",
@@ -308,7 +308,7 @@ jQuery(function ($) { "use strict";
 			"featureType": "road",
 			"elementType": "geometry.fill",
 			"stylers": [{
-				"color": "#ff9400"
+				"color": "#0c85cf"
 			}]
 		}, {
 			"featureType": "road",
@@ -334,7 +334,7 @@ jQuery(function ($) { "use strict";
 			"featureType": "poi",
 			"elementType": "geometry",
 			"stylers": [{
-				"color": "#808080"
+				"color": "#fafafa"
 			}]
 		}, {
 			"featureType": "water",
@@ -354,7 +354,7 @@ jQuery(function ($) { "use strict";
 			"featureType": "landscape",
 			"elementType": "geometry.stroke",
 			"stylers": [{
-				"color": "#bbbbbb"
+				"color": "#eee"
 			}]
 		}];
 
