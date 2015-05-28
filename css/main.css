@@ -815,7 +815,12 @@ h1, h2, h3, h4, h5, h6 {
 	background-image: url("../img/parallax/twitter.jpg");
 	padding-bottom: 100px;
 	padding-top: 80px;
+    font-size: 37px;
+    font-weight:200;
+    letter-spacing: 1px;
 }
+
+/*twitter media*/
 
 .twitter-bird span {
     border: 2px solid #0c85cf;
@@ -825,6 +830,7 @@ h1, h2, h3, h4, h5, h6 {
     margin-bottom: 50px;
     height: 90px;
     width: 90px;
+    font-size:16px;
 }
 
 .twitter-bird span i {
@@ -834,6 +840,7 @@ h1, h2, h3, h4, h5, h6 {
 .tweet {
     margin-bottom: 10px;
 }
+
 
 .tweet a {
     color: #0c85cf;
