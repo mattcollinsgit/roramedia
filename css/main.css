@@ -297,6 +297,7 @@ h1, h2, h3, h4, h5, h6 {
 	background-color: #000;
 	width: 100%;
 	z-index: 99;
+    font-weight: 100;
 }
 
 .navbar {
