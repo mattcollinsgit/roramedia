@@ -727,6 +727,7 @@ h1, h2, h3, h4, h5, h6 {
 .member-title {
 	border-bottom: 1px solid #4e595f;
 	padding: 10px 15px;
+    text-align: center;
 }
 
 
@@ -838,11 +839,12 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 /*=================================================================
-	Pricing section
+	weekdaytag section
 ==================================================================*/
 
 #weekdaytag {
-    background-color:#000;
+    
+   
 }
 
 .pricing {
@@ -1230,7 +1232,7 @@ h1.footer {
 }
 
 #scrollUp {
-    border: 1px solid #074B75;
+    border: 4px solid #fff;
     bottom: 15px;
     color: #fff;
     background-color: #0c85cf;
@@ -1654,8 +1656,10 @@ blockquote {
 ----------*/
 
 #phrase_weekday {
+    background-color:#000;
     width: 100vw;
-    text-align: center;   
+    text-align: center;
+    padding:10px 0px 20px 0px;
 } 
 
 
