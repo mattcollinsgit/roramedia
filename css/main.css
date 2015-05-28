@@ -213,7 +213,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .bg-one {
-    background:url("../img/escheresque.png");
+    background: #fff;
     background-attachment: fixed !important;
 	/*
 	background-position: center center;
@@ -1637,18 +1637,28 @@ blockquote {
  Phrase Weekday
 ----------*/
 
+#phrase_weekday {
+    width: 100vw;
+    height: 15.5vh;
+    background: #000;
+    text-align: center;
+    margin: 20px 0px;
+    
+} 
+
+
 #phraseID, #weekdayID {
-    margin-top:0px;
-    padding-top: 0px;
+    padding: 0px 0px;
     font-size: 80px;
     position: sticky;
     color: #fafafa;
-}
+} 
 #pharseID {}
 #weekdayID {
     font-family: 'Playfair Display', serif;
     font-weight: 500;
     font-size: 110px;
+    color: #0c85cf;
 }
 
 
