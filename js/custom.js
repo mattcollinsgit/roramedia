@@ -23,9 +23,9 @@ jQuery(function ($) { "use strict";
 
 	var nice = $("html").niceScroll({
 		cursorborderradius: 0,
-		cursorwidth: "8px",
+		cursorwidth: "14px",
 		cursorfixedheight: 150,
-		cursorcolor: "#ff9400",
+		cursorcolor: "#0c85cf",
 		zindex: 9999,
 		cursorborder: 0,
 	});
