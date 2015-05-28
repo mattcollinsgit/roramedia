@@ -1,3 +1,5 @@
+@import url(http://fonts.googleapis.com/css?family=Roboto:400,300);
+
 /* Table of Content
 ==================================================
 	#Home
@@ -15,18 +17,22 @@
 /*=================================================================
 	Basic Setup
 ==================================================================*/
+* {
+    margin: 0;
+    padding: 0;
+}
 
 body {
     background-color: #EEE;
-    font-family: 'Open Sans','Ubuntu', 'Arial', sans-serif;
+    font-family: 'Roboto', sans-serif;    
     color: #000;
-    font-weight: 200;
+    font-weight: 300;
     }
 
 p {
     letter-spacing: 1px;
-    font-size: 22px;
-    
+    font-size: 16px;
+    font-family: 'Roboto', sans-serif;
 }
 
 ol, ul {
@@ -41,7 +47,7 @@ figure {
 
 a {
     color: #0c85cf;
-
+    
 	-webkit-transition: all .3s ease-in 0s;
 	   -moz-transition: all .3s ease-in 0s;
 		 -o-transition: all .3s ease-in 0s;
@@ -64,6 +70,7 @@ a:focus, a:hover {
 h1, h2, h3, h4, h5, h6 {
     font-family: oswald;
     font-weight: 400;
+    color: #000000;
 }
 
 .kill-margin-bottom {
