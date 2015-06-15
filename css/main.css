@@ -65,7 +65,7 @@ a, a:focus, a:hover {
 }
 
 a:focus, a:hover {
-    color: #074B75;
+    color: #0c85cf;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -79,7 +79,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .btn {
-    background-color:#0e85ef;
+    background-color:#0c85cf;
     color:#FFF;
     padding: 10px 30px;
 	border-radius: 0;
@@ -102,7 +102,7 @@ h1, h2, h3, h4, h5, h6 {
 
 .btn-green:focus,
 .btn-green:hover {
-    background-color: #074B75;
+    background-color: #0c85cf;
 	color: #fff;
 }
 
@@ -116,7 +116,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .btn-transparent:hover {
-    background-color: #074B75;
+    background-color: #0c85cf;
 	border: 1px solid transparent;
     color: #fff;
 }
@@ -1089,7 +1089,7 @@ h1, h2, h3, h4, h5, h6 {
 .contact-form input:hover,
 .contact-form textarea:hover,
 #contact-submit:hover {
-    border-color: #074B75;
+    border-color: #0c85cf;
     color: #000;
 }
 
@@ -1132,9 +1132,9 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .success {
-    background-color: #074B75;
+    background-color: #0c85cf;
     border-radius: 4px;
-    color: #0c85cf;
+    color: #fff;
     display: none;
     font-size: 13px;
     padding: 10px;
