@@ -1248,6 +1248,7 @@ h1.footer {
 .copyright {
     padding: 20px 0;
     color: #fff;
+    ba
 }
 
 .copyright > img {
@@ -1731,7 +1732,7 @@ blockquote {
 div#footerimage {
     height:100%;
     width: 100%;
-    background: url('img/roraLogoFooter.png') no-repeat center center fixed;
+    background: url('../img/roraLogoFooter.png')no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
